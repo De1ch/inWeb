@@ -1,249 +1,680 @@
-<!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
 
 <head>
-    <title>inWeb</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="shortcut icon" href="images/logosite.png" type="image/png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>inWeb Design</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/logosite.png" type="image/png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <script src="https://vk.com/js/api/openapi.js?151" type="text/javascript"></script>
-    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+    <!--<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,600,700' rel='stylesheet' type='text/css'>-->
+    <link rel="stylesheet" href="assets/css/fonticons.css">
+    <link rel="stylesheet" href="assets/fonts/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
+
+
+    <!--For Plugins external css-->
+    <link rel="stylesheet" href="assets/css/plugins.css" />
+
+    <!--Theme custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--Theme Responsive css-->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
 
 <body>
+    <!-- VK Widget -->
+    <div id="vk_community_messages"></div>
+    <script type="text/javascript">
+        VK.Widgets.CommunityMessages("vk_community_messages", 131187400, {
+            tooltipButtonText: "Есть вопрос?"
+        });
+
+    </script>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class='preloader'>
+        <div class='loaded'>&nbsp;</div>
+    </div>
+    <!--Home page style-->
+    <section id="header">
+        <header id="main_menu" class="header">
+            <div class="main_menu_bg navbar-fixed-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="nave_menu">
+                            <nav class="navbar navbar-default">
+                                <div class="container-fluid">
+                                    <!-- Brand and toggle get grouped for better mobile display -->
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+
+                                    </div>
+
+                                    <!-- Collect the nav links, forms, and other content for toggling -->
+                                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                        <ul class="nav navbar-nav">
+                                            <li><a href="#home">Главная</a></li>
+                                            <li><a href="#whatido">Товары</a></li>
+                                            <li><a href="#go">О нас</a></li>
+                                            <li><a href="#myworks">Наши работы</a></li>
+                                            <li><a href="#about">Прочее</a></li>
+                                            <li><a href="#contact">FAQ</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </header>
+    </section>
+    <!--End of header -->
 
 
-    <!-- Sidebar -->
-    <section id="sidebar">
-        <div class="inner">
-            <nav>
-                <ul>
-                    <li><a href="#intro">Главная</a></li>
-                    <li><a href="#one">Услуги</a></li>
-                    <li><a href="#two">О нас</a></li>
-                    <li><a href="#three">Контакты</a></li>
-                </ul>
-            </nav>
+
+    <section id="home" class="home">
+        <div class="home_overlay">
+            <div class="container">
+                <div class="row">
+
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <div class="carousel-caption">
+                                    <p>Дизайн не столько профессия, сколько отношение к жизни.</p>
+                                    <div class="btn_bg">
+                                        <a href="https://vk.com/inweb_group" target="_blank" class="btn ">НАША ГРУППА</a>
+                                    </div>
+                                </div>
+                                <img src="assets/images/slider11.png" alt="...">
+                            </div>
+                            <div class="item">
+                                <div class="carousel-caption">
+                                    <p>Идею, не вызывающую никаких опасений, и вовсе нельзя называть идеей.</p>
+                                    <div class="btn_bg">
+                                        <a href="https://vk.com/inweb_group" target="_blank" class="btn ">НАША ГРУППА</a>
+                                    </div>
+                                </div>
+                                <img src="assets/images/slider11.png" alt="...">
+                            </div>
+                            <div class="item">
+                                <div class="carousel-caption">
+                                    <p>Настоящему дизайнеру не нужен предлог для того, чтобы создавать дизайн.</p>
+                                    <div class="btn_bg">
+                                        <a href="https://vk.com/inweb_group" target="_blank" class="btn ">НАША ГРУППА</a>
+                                    </div>
+                                </div>
+                                <img src="assets/images/slider11.png" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="scrolldown">
+                        <a href="#whatido" class="scroll_btn"></a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Banner Section -->
+
+
+
+
+    <section id="whatido" class="whatido">
+        <div class="container">
+                      <div class="container">
+            <div class="row">
+                       <div class="timer">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="head_title text-center wow fadeInDown" data-wow-duration="3s">
+            <h2>АКЦИЯ!</h2>
+                <h4><b>Закажите наши услуги со скидкой от 20%!</b></h4>
+                <h4><b>До конца акции осталось:</b></h4>
+             <script src="http://megatimer.ru/s/0a864ccf17adca9f18ba756ad0b71c0f.js"></script>
+              <br><br>
+               <h3>Спешите! Акция действует только до 17 марта!</h3>
+                <br><br><br><br></div>
+                           </div></div></div></div>
+            <div class="row">
+              <div class="single_copyirgth wow fadeInUp" data-wow-duration="2s">
+               <div class="main_whatido_content text-center">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="product-wrap">
+                    <div class="product-image">
+      <img src="img/BRONZA.png">
+      <div class="shadow"></div>
+                        <a class="detail-link" href="#myModal" class="btn btn-primary" data-toggle="modal" title="Быстрый просмотр"></a>
+                        <div class="actions">
+                            <div class="actions-btn">
+                                <a class="add-to-cart" href="https://vk.com/inweb_group?w=product-131187400_1350601%2Fquery" title="Сделать заказ" target="_blank"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-list">
+                        <h3>Эконом заказ</h3>
+                        <div class="price">
+                            <div class="oldPrice">200 &#8381;</div> От 150&#8381;</div>
+                    </div>
+                </div>
+                   </div>
+                </div>
+<div class="main_whatido_content text-center">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="product-wrap">
+                    <div class="product-image">
+      <img src="img/serebro.png">
+      <div class="shadow"></div>
+                        <a class="detail-link" href="#myModal1" class="btn btn-primary" data-toggle="modal" title="Быстрый просмотр"></a>
+                        <div class="actions">
+                            <div class="actions-btn">
+                                <a class="add-to-cart" href="https://vk.com/inweb_group?w=product-131187400_1350598%2Fquery" title="Сделать заказ" target="_blank"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-list">
+                        <h3>Базовый заказ</h3>
+                        <div class="price">
+                            <div class="oldPrice">300 &#8381;</div> От 250&#8381;</div>
+                    </div>
+                    
+                </div>
+                   </div>
+                </div>
+<div class="main_whatido_content text-center">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="product-wrap">
+                    <div class="product-image">
+      <img src="img/gold.png">
+      <div class="shadow"></div>
+                        <a class="detail-link" href="#myModal2" class="btn btn-primary" data-toggle="modal" title="Быстрый просмотр"></a>
+                        <div class="actions">
+                            <div class="actions-btn">
+                                <a class="add-to-cart" href="https://vk.com/inweb_group?w=product-131187400_1221369%2Fquery" title="Сделать заказ" target="_blank"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-list">
+                        <h3>Премиум заказ</h3>
+                        <div class="price">
+                            <div class="oldPrice">500 &#8381;</div> От 400&#8381;</div>
+                    </div>
+                </div>
+                   </div>
+                </div>
+                   </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                   <br id="go"><br><br>
+                    <div class="head_title text-center wow fadeInLeft" data-wow-duration="3s">
+                        <h2>INWEB</h2>
+                        <div class="separator"></div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                   <br><br><br>
+                    <div class="head_title_rigth wow fadeInRight" data-wow-duration="3s">
+                        <p>Мы занимаемся дизайном и созданием сайтов, разрабатываем фирменные стили, рисуем иллюстрации, делаем интерфейсы, которыми удобно пользоваться. Уделяем большое внимание деталям и поэтому гордимся нашими работами.</p>
+                    </div>
+                </div>
+                <!-- End of col-sm-5 -->
+                <div class="main_whatido_content text-center">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="single_whatido wow fadeInDown" data-wow-duration="1s">
+                            <div class="single_whatido_img">
+                                <img src="img/dadA.png" alt="" />
+                            </div>
+                            <h3>Направления</h3>
+                            <p>Основные направления: дизайн полиграфии; логотипы, фирменные стили; макетирование и верстка; разработка упаковки и этикетки; проектирование и дизайн сайтов.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="single_whatido wow fadeInDown" data-wow-duration="3s">
+                            <div class="single_whatido_img">
+                                <img src="img/g.png" alt="" />
+                            </div>
+                            <h3>Консультации</h3>
+                            <p>Наши работы объединяет одно — они решают задачи клиентов, например, представляют бренд или способствуют продажам. Перед запуском проекта мы помогаем поставить цели и объясняем, чего можно и нужно ждать от используемого продукта.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="single_whatido wow fadeInDown" data-wow-duration="4s">
+                            <div class="single_whatido_img">
+                                <img src="img/plan.png" alt="" />
+                            </div>
+                            <h3>Востребованность</h3>
+                            <p>Сотрудники организации плотно работают с каждым заказчиком. Клиенту предлагаются наиболее рациональные, эффектные и при этом доступные решения. Стоимость услуг находится на весьма приемлемом уровне.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Features Section -->
+
+    <section id="myworks" class="myworks">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1 col-md-offset-5 col-sm-1 col-sm-offset-5 col-xs-12 no-padding">
+                    <div class="scrolldownall text-right">
+                        <a href="#about" class="scroll_btnall"></a>
+                    </div>
+                </div>
+                <!-- End of col-sm-2 -->
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="head_title text-center wow fadeInLeft" data-wow-duration="2s">
+                        <h2>НАШИ РАБОТЫ</h2>
+                        <div class="separator"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="main_myworks_content text-center">
+            <div class="single_work_colum col-md-3 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="1.5s">
+                <div class="single_work">
+                    <img src="img/f.png" alt="" />
+                </div>
+            </div>
+            <div class="single_work_colum col-md-3 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="2s">
+                <div class="single_work">
+                    <img src="img/jjj.png" alt="" />
+                </div>
+            </div>
+            <div class="single_work_colum col-md-3 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="3s">
+                <div class="single_work">
+                    <img src="img/y.png" alt="" />
+                </div>
+            </div>
+            <div class="single_work_colum col-md-3 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="4s">
+                <div class="single_work">
+                    <img src="img/t.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Features Section -->
+
+
+
+    <section id="about" class="about">
+        <br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="2s">
+                    <div class="head_title text-center">
+                        <h2>ПРОЧЕЕ</h2>
+                        <div class="separator"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-duration="2s">
+                    <div class="head_title_rigth">
+                        <p>«inWeb» существует более 1-го года. За этот срок многие крупные компании СНГ из года в год пользуются нашими услугами. Мы разрабатываем индивидуальный дизайн на Ваш вкус для Вас и Вашего бизнеса. </p>
+                    </div>
+                </div>
+                <div class="main_about_content text-center">
+                    <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="1.5s">
+                        <div class="single_about">
+                            <div class="single_about_img">
+                                <img src="assets/images/skil1.png" alt="" />
+                            </div>
+                            <h3><span class="statistic-counter">1</span>Год в графическом дизайне</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="2s">
+                        <div class="single_about">
+                            <div class="single_about_img">
+                                <img src="assets/images/skil1.png" alt="" />
+                            </div>
+                            <h3><span class="statistic-counter">13</span>Постоянных клиентов</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="3s">
+                        <div class="single_about">
+                            <div class="single_about_img">
+                                <img src="assets/images/skil1.png" alt="" />
+                            </div>
+                            <h3><span class="statistic-counter">100</span>% любви к своей работе</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Features Section -->
+
+
+
+
+
+
+
+    <section id="contact" class="contact">
+        <br><br>
+        <div class="container">
+            <div class="row">
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default wow fadeInRight" data-wow-duration="2s">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+        Как с нами связаться?</a>
+                            </h4>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse in">
+                            <div class="panel-body">Основаное взаимодействие с нами происходит в нашей группе ВКонтакте. Там размещены все наши услуги, и имеено через группу мы взаимодейтсвуем с своими клиентами и подписчиками!</div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default wow fadeInLeft" data-wow-duration="2s">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        Почему именно у нас?</a>
+                            </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <div class="panel-body">1. Профессионализм
+                                <p></p>
+                                <p>2. Уникальный дизайн.</p>
+                                <p>3. Качество.</p>
+                                <p>4. Взаимопонимание.</p>
+                                <p>5. Оперативность.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default wow fadeInRight" data-wow-duration="2s">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        Как сделать заказ?</a>
+                            </h4>
+                        </div>
+                        <div id="collapse3" class="panel-collapse collapse">
+                            <div class="panel-body">Для того чтобы сделать заказ Вам нужно <a href="https://vk.com/inweb_group?w=app5708398_-131187400" target="_blank">запонить полноценную заявку и отправить ее нашей команде</a>. После рассмотрения заявки мы сразу же свяжимся с Вами для дальнейшей работы.</div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default wow fadeInLeft" data-wow-duration="2s">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+        По какой форме я должен заполнить заявку для заказа?</a>
+                            </h4>
+                        </div>
+                        <div id="collapse4" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>Какой продукт требуется создать:</p>
+                                <p>Существует ли у Вас продукт на данный момент (если да - укажите адрес):</p>
+                                <p>Цель создания / модернизации продукта:</p>
+                                <p>Впечатление, которое должен производить продукт:</p>
+                                <p>Продукт компаний-конкурентов (перечислить, желательно указать что нравится, а что нет):</p>
+                                <p>Дополнительная информация о продукте, которая должна быть учтена:</p>
+
+                                <p><a href="https://vk.com/inweb_group?w=app5708398_-131187400" target="_blank">Более подробно Вы можете узнать перейдя к самой заявке.</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default wow fadeInRight" data-wow-duration="2s">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+        В течение какого времени будет выполняться заказ?</a>
+                            </h4>
+                        </div>
+                        <div id="collapse5" class="panel-collapse collapse">
+                            <div class="panel-body">Все зависит от сложности выполнения заказа. Если завершить работу нужно в крайне которкие сроки, то запрашивается небольшая доплата. В среднем время выполнения заказа варьируется от двух до четырех дней.</div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default wow fadeInLeft" data-wow-duration="2s">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+        Как происходит оплата за выполненную работу?</a>
+                            </h4>
+                        </div>
+                        <div id="collapse6" class="panel-collapse collapse">
+                            <div class="panel-body">Сперва вносится предоплата, размер предоплаты определяется по классу заказа (Эконом, базовый, премиум). После окончания работы мы высылаем Вам часть готового продукта, после внесения правок, исправлений, и окончательного утверждения выполненного заказа Вам высылаются нужные риквизиты. <b>(Оплата происходит через сервисы: WebMoney, QIWI Кошелек, Visa Cards)</b></div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default wow fadeInRight" data-wow-duration="2s">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">
+        Как мне попасть в команду «inWeb»?</a>
+                            </h4>
+                        </div>
+                        <div id="collapse7" class="panel-collapse collapse">
+                            <div class="panel-body">В случае если Вы захотели попасть в нашу команду и неплохо зарабатывать, Вам стоит перейти в нашу группу ВКонтакте и связаться с нами через сообщения группы. <b>На данный момент имеются места графического дизайнера, верстальщика.</b> </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default wow fadeInLeft" data-wow-duration="2s">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">
+        Какие плюсы при сотрудничестве с нами?</a>
+                            </h4>
+                        </div>
+                        <div id="collapse8" class="panel-collapse collapse">
+                            <div class="panel-body">У нас имеется небольшая, но очень активная аудитория, которая всегда рада помочь начинающему проекту в развитии. При сотрудничестве с нами Ваш контент досконально просматривается на наличие способов обмана и мошенничества.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="single_whatido wow fadeInUp" data-wow-duration="3s">
+                    <!-- VK Widget -->
+                    <!-- VK Widget -->
+                    <div id="vk_widget" style="width: 100%;"></div>
+                    <script type="text/javascript" src="//vk.com/js/api/openapi.js?152"></script>
+                    <script !src="">
+                        function VK_Widget_Init() {
+                            var getWidth = document.getElementById("vk_widget").clientWidth;
+                            console.log(getWidth);
+                            document.getElementById('vk_widget').innerHTML = '<div id="vk_groups"></div>';
+                            VK.Widgets.Group("vk_groups", {
+                                mode: 3,
+                                no_cover: 1,
+                                color2: '37474F',
+                                width: getWidth,
+                            }, 131187400);
+                        };
+                        window.addEventListener('load', VK_Widget_Init, false);
+                        window.addEventListener('resize', VK_Widget_Init, false);
+
+                    </script>
+
+                    <br>
+
+                    <!-- Put this script tag to the <head> of your page -->
+                    <script type="text/javascript" src="//vk.com/js/api/openapi.js?152"></script>
+
+                    <script type="text/javascript">
+                        VK.init({
+                            apiId: 6387222,
+                            onlyWidgets: true
+                        });
+
+                    </script>
+
+                    <!-- Put this div tag to the place, where the Comments block will be -->
+                    <div id="vk_comments"></div>
+                    <script type="text/javascript">
+                        VK.Widgets.Comments("vk_comments", {
+                            limit: 5,
+                            attach: "*"
+                        });
+
+                    </script>
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="footer_copyright">
+
+                    <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="3s">
+                        <div class="single_copyirgth text-left">
+                            <p>Copyright 2018 &copy; inWeb</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="single_copyirgth wow fadeInUp" data-wow-duration="2s">
+                            <ul class="navbar-right">
+                                <li class="active"><a href="#home">Главная</a></li>
+                                <li><a href="#whatido">Товары</a></li>
+                                            <li><a href="#go">О нас</a></li>
+                                <li><a href="#myworks">Наши работы</a></li>
+                                <li><a href="#about">Прочее</a></li>
+                                <li><a href="#contact">FAQ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Wrapper -->
-    <div id="wrapper">
+<!-- -------------------------------------------------------------- -->
 
-        <!-- Intro -->
-        <section id="intro" class="wrapper style1 fullscreen fade-up">
-            <div class="inner">
-                <h1>inWeb</h1>
-                <p>Мы занимаемся дизайном, созданием сайтов и разработкой чат-ботов, разрабатываем фирменные стили, делаем интерфейсы, которыми удобно пользоваться. Уделяем большое внимание деталям и поэтому гордимся нашими работами.</p>
-                <ul class="actions">
-                    <li><a href="#one" class="button scrolly">Подробнее</a></li>
-                </ul>
-            </div>
-        </section>
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
 
-        <!-- One -->
-        <section id="one" class="wrapper style2 spotlights">
-            <section>
-                <a href="https://vk.com/inweb_group?w=product-131187400_1221369%2Fquery" target="_blank" class="image"><img src="images/gold.png" alt="" data-position="center center" /></a>
-                <div class="content">
-                    <div class="inner">
-                        <h2>Премиум</h2>
-                        <p>Предоплата в размере 30% от стоимости заказа. Выполнение заказа в течение 1-2 календарных дней.</p>
-                        <ul class="actions">
-                            <li><a href="https://vk.com/inweb_group?w=product-131187400_1221369%2Fquery" target="_blank" class="button">Сделать заказ</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <a href="https://vk.com/inweb_group?w=product-131187400_1350598%2Fquery" target="_blank" class="image"><img src="images/standart.png" alt="" data-position="top center" /></a>
-                <div class="content">
-                    <div class="inner">
-                        <h2>Стандарт</h2>
-                        <p>Предоплата в размере 10% от стоимости заказа. Выполнение заказа в течение 4-5 календарных дней.</p>
-                        <ul class="actions">
-                            <li><a href="https://vk.com/inweb_group?w=product-131187400_1350598%2Fquery" target="_blank" class="button">Сделать заказ</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <a href="https://vk.com/inweb_group?w=product-131187400_1350601%2Fquery" target="_blank" class="image"><img src="images/bronze.png" alt="" data-position="25% 25%" /></a>
-                <div class="content">
-                    <div class="inner">
-                        <h2>Эконом</h2>
-                        <p>Заказ выполняется без предоплаты. Выполнение заказа происходит в течение 6-8 календарных дней.</p>
-                        <ul class="actions">
-                            <li><a href="https://vk.com/inweb_group?w=product-131187400_1350601%2Fquery" target="_blank" class="button">Сделать заказ</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-        </section>
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Эконом заказ</h4>
+      </div>
+      <div class="modal-body">
+          <p><h4>Эконом заказ включает в себя:</h4>
 
-        <!-- Two -->
-        <section id="two" class="wrapper style3 fade-up">
-            <div class="inner">
-                <h2>О нас</h2>
-                <p>«inWeb» существует более 2-х лет. За этот срок многие крупные компании СНГ из года в год пользуются нашими услугами. Мы разрабатываем индивидуальный дизайн, приложения, на Ваш вкус для Вас и Вашего бизнеса.</p>
-                <div class="features">
-                    <section>
-                        <span class="icon major fa-code"></span>
-                        <h3>Направления</h3>
-                        <p>Основные направления: логотипы, фирменные стили; макетирование, верстка; проектирование и дизайн сайтов; разработка чат-ботов.</p>
-                    </section>
-                    <section>
-                        <span class="icon major fa-lock"></span>
-                        <h3>Оригинальность</h3>
-                        <p>Мы обещаем Вам новую, и оригинально выполненную работу. Исходный код проекта будут иметь только разработчики и Вы.</p>
-                    </section>
-                    <section>
-                        <span class="icon major fa-cog"></span>
-                        <h3>Востребованность</h3>
-                        <p>Сотрудники организации плотно работают с каждым заказчиком. Клиенту предлагаются наиболее рациональные, эффектные и при этом доступные решения. Стоимость услуг находится на весьма приемлемом уровне.</p>
-                    </section>
-                    <section>
-                        <span class="icon major fa-desktop"></span>
-                        <h3>Консультации</h3>
-                        <p>Наши работы объединяет одно — они решают задачи клиентов, представляют бренд или способствуют продажам. Перед запуском проекта мы помогаем поставить цели и объясняем, чего можно и нужно ждать от продукта.</p>
-                    </section>
-                    <section>
-                        <span class="icon major fa-chain"></span>
-                        <h3>Взаимодействие</h3>
-                        <p>Основное взаимодействие с нами происходит в нашей <a href="https://vk.com/inweb_group" target="_blank">группе ВКонтакте</a>. Там размещены все наши услуги, и имеено так мы взаимодейтсвуем с своими клиентами и подписчиками!</p>
-                    </section>
-                    <section>
-                        <span class="icon major fa-diamond"></span>
-                        <h3>Оплата</h3>
-                        <p>Оплата за выполненную работу происходит через сервисы: WebMoney, QIWI Кошелек, Visa Cards. Возможен иной вариант оплаты.</p>
-                    </section>
-                </div>
-                <ul class="actions">
-                    <li><a href="https://vk.com/inweb_group" target="_blank" class="button">Подробнее</a></li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- Three -->
-        <section id="three" class="wrapper style1 fade-up">
-            <div class="inner">
-                <h2>Контакты</h2>
-                <p>Вы можете обратиться к нам через <a href="https://vk.com/inweb_group" target="_blank">группу ВКонтакте</a>, или же отправить сообщение нам на электронную почту. Наша команда постарается ответить Вам как можно быстрее.</p>
-                <div class="split style1">
-                    <section>
-                        <form method="post" action="message.php">
-                            <div class="field half first">
-                                <label for="name">Имя</label>
-                                <input type="text" name="name" id="name" placeholder="Введите ваше имя" required/>
-                            </div>
-                            <div class="field half">
-                                <label for="email">Email</label>
-                                <input type="email" name="email" id="email" placeholder="Введите электронный адрес" required/>
-                            </div>
-                            <div class="field">
-                                <label for="message">Сообщение</label>
-                                <textarea name="message" id="message" rows="5" placeholder="Введите текст сообщения" required></textarea>
-                            </div>
-                            <ul class="actions">
-                                <li><a href="" class="button submit">Отправить сообщение</a></li>
-                            </ul>
-                        </form>
-                    </section>
-                    <section>
-                        <ul class="contact">
-                            <li>
-                                <h3>Email</h3>
-                                <a href="mailto:inweb.help@gmail.com" target="_blank">inweb.help@gmail.com</a>
-                            </li>
-                            <li>
-                                <h3>Telegram</h3>
-                                <a href="https://t.me/inweb_group" target="_blank">@inweb_group</a>
-                            </li>
-                            <li>
-                                <h3>ВКонтакте</h3>
-                                <a href="https://vk.com/inweb_group" target="_blank">inWeb Group</a><br />
-                                <a href="https://vk.com/inbook_group" target="_blank">inBook Group</a>
-                            </li>
-                        </ul>
-                    </section>
-                </div>
-            </div>
-        </section>
-
+<p>• Предоплата в размере 10% от стоимости заказа.</p>
+<p>• Подробное ТЗ с учетом всех деталей.</p>
+<p>• Выполнение заказа в течение 6-8 календарных дней.</p>
+<p>• Активная поддержка связи с клиентом, отчетность.</p>
+<br>
+        <p align="center">Цена может изменяться в зависимости от сложности выполнения заказа!</p>
+         <br>
+          <p align="center"><b><a href="https://vk.com/inweb_group?w=app5708398_-131187400" target="_blank">Для того чтобы сделать заказ заполните заявку!</a></b></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+      </div>
     </div>
 
-    <!-- Footer -->
-    <footer id="footer" class="wrapper style1-alt">
+  </div>
+</div>
 
-        <!-- VK Widget -->
-        <div class="vk" id="vk_groups"></div>
-        <script type="text/javascript">
-            VK.Widgets.Group("vk_groups", {
-                mode: 4,
-                wide: 1,
-                no_cover: 1,
-                width: "1060%",
-                height: "800",
-                color2: "#000000",
-                color3: "#493382"
-            }, 131187400);
+<div id="myModal1" class="modal fade" role="dialog">
+  <div class="modal-dialog">
 
-        </script>
-        <br>
-        <!-- Put this script tag to the <head> of your page -->
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Базовый заказ</h4>
+      </div>
+      <div class="modal-body">
+          <p><h4>Базовый заказ включает в себя:</h4>
 
-        <script type="text/javascript">
-            VK.init({
-                apiId: 6387222,
-                onlyWidgets: true
-            });
+<p>• Предоплата в размере 30% от стоимости заказа.</p>
+<p>• Подробное ТЗ с учетом всех деталей.</p>
+<p>• Выполнение заказа в течение 4-5 календарных дней.</p>
+<p>• Активная поддержка связи с клиентом, отчетность.</p>
+<br>
+        <p align="center">Цена может изменяться в зависимости от сложности выполнения заказа!</p>
+         <br>
+          <p align="center"><b><a href="https://vk.com/inweb_group?w=app5708398_-131187400" target="_blank">Для того чтобы сделать заказ заполните заявку!</a></b></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
 
-        </script>
+  </div>
+</div>
 
-        <!-- Put this div tag to the place, where the Comments block will be -->
-        <div class="vk" id="vk_comments"></div>
-        <script type="text/javascript">
-            VK.Widgets.Comments("vk_comments", {
-                limit: 10,
-                attach: "*"
-            });
+<div id="myModal2" class="modal fade" role="dialog">
+  <div class="modal-dialog">
 
-        </script>
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Премиум заказ</h4>
+      </div>
+      <div class="modal-body">
+          <p><h4>Премиум заказ включает в себя:</h4>
 
-        <div id="vk_community_messages"></div>
-        <!-- VK Widget -->
-        <div id="vk_community_messages"></div>
-        <script type="text/javascript">
-            VK.Widgets.CommunityMessages("vk_community_messages", 131187400, {
-                expandTimeout: "40000",
-                widgetPosition: "left",
-                tooltipButtonText: "Есть вопрос?"
-            });
+<p>• Предоплата в размере 40% от стоимости заказа.</p>
+<p>• Подробное ТЗ с учетом всех деталей.</p>
+<p>• Выполнение заказа в течение 1-2 календарных дней.</p>
+<p>• Активная поддержка связи с клиентом, отчетность.</p>
+<br>
+        <p align="center">Цена может изменяться в зависимости от сложности выполнения заказа!</p>
+         <br>
+          <p align="center"><b><a href="https://vk.com/inweb_group?w=app5708398_-131187400" target="_blank">Для того чтобы сделать заказ заполните заявку!</a></b></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
 
-        </script>
+  </div>
+</div>
 
-        <div class="inner">
-            <ul class="menu">
-                <li>&copy; inWeb 2018</li>
-            </ul>
-        </div>
-    </footer>
+<!-- -------------------------------------------------------------- -->
+   
+    <div class="scrollup">
+        <a href="#"><i class="fa fa-chevron-up"></i></a>
+    </div>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/skel.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/isotope.min.js"></script>
+
+    <script src="assets/js/jquery.easypiechart.min.js"></script>
+    <script src="assets/js/jquery.mixitup.min.js"></script>
+
+
+    <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
 
 </body>
